@@ -1,0 +1,42 @@
+/* // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//   Fonts
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+// font-family: 'Lora', serif;
+// font-family: 'Roboto', sans-serif;
+
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//   Colors
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+// #071013 - Rich Blak
+// #23B5D3 - Pacific Blue
+// #75ABBC - Pewter Blue
+// #A2AEBB - Cadet Blue Crayola
+// #DFE0E2 - Gainsboro    
+
+
+// /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//   Basic Setup
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */ 
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: 'Lora', serif;
+  font-weight: 400;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: #75ABBC;
+}
