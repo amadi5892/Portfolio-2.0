@@ -11,12 +11,18 @@
 .project-container {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: 100% 100%;
-    grid-template-areas: "img info"
+    grid-template-rows: 3rem 15rem;
+    grid-template-areas: "title title"
+                         "img info"
                          "sub .";
     overflow: hidden;
     position: relative;
     margin: 15px 0;
+}
+
+.project-container h3 {
+    grid-area: title;
+    font-family: 'Roboto', sans-serif;
 }
 
 .project-img {
