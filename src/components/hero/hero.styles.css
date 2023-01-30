@@ -37,9 +37,9 @@
     width: 100%;
     margin: 10px auto;
     padding: 20px;
-    background-color: #23B5D3;
-    border: 2px solid #23B5D3;
-    color: white;
+    background-color: transparent;
+    border: 1px solid #23B5D3;
+    color: #071013;
     display: block;
     font-family: 'Lora', serif;
     font-size: 18px;
@@ -48,8 +48,8 @@
 }
 
 .hero-btn:hover {
-    background-color: #DFE0E2;
-    color: #071013;
+    background-color: #23B5D3;
+    color: white;
 }
 
 .sub-hero-container {

@@ -1,0 +1,102 @@
+.contact-section {
+    margin: auto 2rem;
+}
+
+.contact-heading {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.contact-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100% 100%;
+    grid-template-areas: "form button"
+                         "social social";
+    margin: 15px 0;
+    position: relative;
+}
+
+.contact-form {
+    grid-area: form;
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+input[type='text'],
+input[type='email'] {
+    border: 1px solid #23B5D3;
+    border-radius: 2px;
+    display: block;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+textarea {
+    border: 1px solid #23B5D3;
+}
+
+.contact-btn-section {
+    grid-area: button;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+}
+
+.contact-btn {
+    width: 100%;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: transparent;
+    border: 1px solid #23B5D3;
+    color: #071013;
+    display: block;
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    transition: 0.2s ease-out;
+    cursor: pointer;
+}
+
+.contact-btn:hover {
+    background-color: #23B5D3;
+    color: white;
+}
+
+.contact-display-section {
+    margin: 35px 0;
+}
+
+.contact-display {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contact-display h2 {
+    margin-bottom: 15px;
+
+}
+
+.contact-display span {
+    color: #23B5D3;
+}
+
+.contact-display a {
+    color: #071013;
+}
+
+ion-icon {
+    font-size: 1.5rem;
+}
+
+ion-icon:hover {
+    cursor: pointer;
+}

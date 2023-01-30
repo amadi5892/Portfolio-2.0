@@ -23,6 +23,7 @@
     grid-area: img;
     width: auto;
     height: 15rem;
+    transition: 0.4s ease-out;
     opacity: 0.6;
 }
 
