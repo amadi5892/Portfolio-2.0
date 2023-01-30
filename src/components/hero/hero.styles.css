@@ -1,0 +1,57 @@
+.hero-section {
+    height: 100vh;
+    margin: auto 2rem;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.hero-section span {
+    color: #23B5D3;
+    
+}
+
+.hero-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 100% 100%;
+    grid-template-areas: "hero button"
+                         "sub .";
+    position: relative;
+}
+
+.hero-text-box {
+    grid-area: hero;
+    font-size: 48px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-btn-section {
+    grid-area: button;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+}
+
+.hero-btn {
+    width: 100%;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: #23B5D3;
+    border: 2px solid #23B5D3;
+    color: white;
+    display: block;
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    transition: 0.2s ease-out;
+    cursor: pointer;
+}
+
+.hero-btn:hover {
+    background-color: #DFE0E2;
+    color: #071013;
+}
+
+.sub-hero-container {
+    grid-area: sub;
+}
