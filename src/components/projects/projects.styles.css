@@ -57,3 +57,38 @@
 .project-content a:hover {
     cursor: pointer;
 }
+
+@media only screen and (max-device-width: 43rem) {
+    .project-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 3rem;
+        grid-template-areas: "title"
+                             "img"
+                             "info";
+        overflow: hidden;
+        position: relative;
+    }
+
+    .project-img {
+        grid-area: img;
+        width: 100%;
+        height: auto;
+        transition: 0.4s ease-out;
+        opacity: 0.6;
+    }
+
+    .project-content {
+        position: absolute;
+        bottom: 8rem;
+        left: 0.5rem;
+        font-size: 14px;
+    }
+    
+    .project-info {
+        grid-area: info;
+        font-size: 16px;
+        text-align: justify;
+        margin-top: 1rem;
+    }
+}

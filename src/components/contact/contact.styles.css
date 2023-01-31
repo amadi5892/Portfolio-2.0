@@ -100,3 +100,37 @@ ion-icon {
 ion-icon:hover {
     cursor: pointer;
 }
+
+@media only screen and (max-device-width: 43rem) {
+    .contact-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 26rem;
+        grid-template-areas: "form" 
+                             "button"
+                             "social";
+        margin: 15px 0;
+        position: relative;
+    }
+
+    .text {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .contact-btn-section {
+        grid-area: button;
+    }
+    
+    .contact-btn {
+        width: 8rem;
+    }
+
+    .contact-display {
+        grid-area: social;        
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        text-align: center;
+    }
+}

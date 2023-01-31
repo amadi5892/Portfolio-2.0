@@ -55,3 +55,29 @@
 .sub-hero-container {
     grid-area: sub;
 }
+
+@media only screen and (max-device-width: 43rem) {
+    .hero-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 100%;
+        grid-template-areas: "hero"
+                             "sub"
+                             "button";
+        position: relative;
+    }
+
+    .hero-btn-section {
+        grid-area: button;
+        position: absolute;
+        top: 8rem;
+        left: 3rem;
+    }
+
+    .sub-hero-container {
+        grid-area: sub;
+        position: absolute;
+        top: 2rem;
+
+    }
+}

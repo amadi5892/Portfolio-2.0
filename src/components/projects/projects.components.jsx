@@ -9,7 +9,7 @@ const Projects = () => {
             </div>
             <div className="project-container" >
                 <h3>E-commerce Site (Demo)</h3>
-                <img class="project-img" src={require('../../assets/ecom.jpg')} alt="ecom-site"/>
+                <img className="project-img" src={require('../../assets/ecom.jpg')} alt="ecom-site"/>
                 <div className="project-info">
                     <p>Live Demo E-commerce web applicaton. This web application is an example of an E-commerce website for a future brand.</p>
                     <ul>
