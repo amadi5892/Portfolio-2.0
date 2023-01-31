@@ -12,8 +12,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 100% 100%;
-    grid-template-areas: "form button"
-                         "social social";
+    grid-template-areas: "form social"
+                         "button .";
     margin: 15px 0;
     position: relative;
 }
@@ -47,13 +47,11 @@ textarea {
 
 .contact-btn-section {
     grid-area: button;
-    position: absolute;
-    top: 50%;
-    left: 25%;
+    
 }
 
 .contact-btn {
-    width: 100%;
+    width: 30%;
     margin: 10px auto;
     padding: 20px;
     background-color: transparent;
@@ -71,13 +69,15 @@ textarea {
     color: white;
 }
 
-.contact-display-section {
-    margin: 35px 0;
-}
-
 .contact-display {
-    text-align: center;
+    grid-area: social;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
     font-family: 'Roboto', sans-serif;
+    font-size: 1.25rem;
+    text-align: center;
 }
 
 .contact-display h2 {

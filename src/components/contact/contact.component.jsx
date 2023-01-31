@@ -31,14 +31,13 @@ const Contact = () => {
                         <button className="contact-btn">Send Message</button>
                     </div>
                 </form>
-            </div>
-            <div className="contact-display-section">
                 <div className="contact-display">
                     <h2>Contact me by <span>email</span> or <span>social media</span></h2>
                     <a href="https://www.linkedin.com/in/parrish-williamson-662410a1/" target="_blank" rel="noreferrer"><ion-icon  name="logo-linkedin" ></ion-icon></a> &nbsp;
                     <a href="https://github.com/amadi5892" target="_blank" rel="noreferrer"><ion-icon  name="logo-github" ></ion-icon></a>
                 </div>
             </div>
+                
         </div>
     );
 }
