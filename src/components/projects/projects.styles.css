@@ -40,12 +40,18 @@
     text-align: justify;
 }
 
+.project-info h4 {
+    margin: 10px 0;
+}
+
 .project-info ul {
     margin-top: 10px;
 }
 
 .project-info li {
     list-style: none;
+    font-size: 16px;
+    margin-bottom: 10px;
 }
 
 .project-content {
@@ -80,7 +86,7 @@
 
     .project-content {
         position: absolute;
-        bottom: 8rem;
+        bottom: 18rem;
         left: 0.5rem;
         font-size: 14px;
     }

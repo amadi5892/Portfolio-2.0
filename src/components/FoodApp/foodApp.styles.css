@@ -1,0 +1,113 @@
+.food-section {
+    position: relative;
+    margin-bottom: 35px;
+}
+
+.food-title {
+    font-family: 'Roboto', sans-serif;
+}
+
+.food-img {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.food-img img{
+    height: 25rem;
+    width: auto;
+}
+
+.food-info {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 100%;
+    grid-template-areas: "image info";
+}
+
+.food-info-img {
+    grid-area: image;
+}
+
+.food-info-img img {
+    height: 25rem;
+    width: auto;
+}
+
+.food-info-para {
+    grid-area: info;
+    margin: 10px 0;
+    padding: 10px 0;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.food-info-para h4 {
+    margin: 10px 0;
+}
+
+.food-info-para li {
+    list-style: none;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.food-content {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+.food-content a {
+    cursor: pointer;
+}
+
+@media only screen and (max-device-width: 43rem) {
+    .food-img {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .food-img img{
+        height: 15rem;
+        width: auto;
+        margin: 0 auto;
+    }
+
+    .food-info {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 100%;
+        grid-template-areas: "image info";
+    }
+    
+    .food-info-img {
+        grid-area: image;
+    }
+    
+    .food-info-img img {
+        height: 10rem;
+        width: auto;
+    }
+
+    .food-info-para {
+        grid-area: info;
+        font-size: 10px;
+        text-align: justify;
+    }
+
+    .food-info-para h4 {
+        margin: 10px 0;
+    }
+    
+    .food-info-para li {
+        list-style: none;
+        font-size: 8px;
+    }
+
+    .food-content {
+        position: absolute;
+        font-size: 15px;
+        bottom: 0px;
+        left: 8px;
+    }
+}

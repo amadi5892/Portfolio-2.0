@@ -67,6 +67,11 @@
         position: relative;
     }
 
+    .hero-text-box {
+        font-size: 2rem;
+        text-align:center;
+    }
+
     .hero-btn-section {
         grid-area: button;
         position: absolute;
